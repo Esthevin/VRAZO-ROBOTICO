@@ -31,3 +31,7 @@ ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
 ## MANDAR UNA POSICON
 ros2 topic pub -1 /cmd_xyz_position geometry_msgs/msg/Point "{x: 0.6, y: 0.0, z: 0.7}"
 Una sola vez
+
+#### PARA VER PUBLICADOR
+ros2 topic echo /servo_error
+
